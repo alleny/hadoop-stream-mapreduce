@@ -2,11 +2,11 @@
 
 = Introduction =
 
-My experiment shows that hadoop-stream-mapReduce is slower than the native Hadoop Java mode. 
+The following experiment shows that hadoop-stream-mapreduce is about 30% slower than native Hadoop Java mode. 
 
-= Details =
+= Experiment =
 
-I setup a single node Hadoop cluster on my MacBook Pro following the steps explained by 
+I setup a single node Hadoop cluster on my !MacBook Pro following the steps explained by 
 
 [http://www.michael-noll.com/wiki/Running_Hadoop_On_Ubuntu_Linux_%28Single-Node_Cluster%29]
 
