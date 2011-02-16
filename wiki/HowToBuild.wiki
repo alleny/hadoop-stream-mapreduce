@@ -1,0 +1,12 @@
+Thanks to Gay Jean-Christophe for the following steps:
+
+  # `svn checkout http://hadoop-stream-mapreduce.googlecode.com/svn/trunk/ local-mapreduce-hadoop-stream`
+  # `cd local-mapreduce-hadoop-stream`
+  # `autoheader`
+  # `aclocal`
+  # `autoconf`
+  # `touch ./NEWS ./README ./AUTHORS ./ChangeLog`
+  # `automake --add-missing`
+  # `./configure`
+  # `make`
+  # `make install`
