@@ -1,5 +1,14 @@
-Thanks to Gay Jean-Christophe for the following steps:
+Thanks to Gay Jean-Christophe for details in this page.
 
+You can checkout and build using the following commands:
+  # `svn checkout http://hadoop-stream-mapreduce.googlecode.com/svn/trunk/ local-mapreduce-hadoop-stream`
+  # `cd local-mapreduce-hadoop-stream`
+  # `autoreconf --install`
+  # `./configure`
+  # `make`
+  # `make install`
+
+If you want more control over the process, here is an equivalent sequence: 
   # `svn checkout http://hadoop-stream-mapreduce.googlecode.com/svn/trunk/ local-mapreduce-hadoop-stream`
   # `cd local-mapreduce-hadoop-stream`
   # `autoheader`
